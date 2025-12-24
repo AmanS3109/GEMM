@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     print(f"{flop/1e9:.2f} GFLOP")
 
-    for i in range(10):
+    for i in range(20000):
         st = time.monotonic()
 
         C = a @ b
